@@ -1,0 +1,63 @@
+Tree:
+    -- Kind of Linked List but it is not linear, it is hirearchical data structure
+
+Binary Search Tree:
+    -- Parent node can have at most two child node
+    -- left child of Parent node will contain smaller value and right child will have larger value than Parent node
+
+Travesal:
+    -- InOrder:  left, root, right
+    -- PreOrder: root, left, right
+    -- PostOrder: left, right, root
+
+    Note:
+       # InOrder will give result in Increasing order of value
+
+height of a Binary Tree:
+    --> Max distance between root and any of leaf node
+
+Diameter of Binary Tree:
+    --> Max distance between two leaf nodes irrespective of passing through root node.
+
+    Logic:
+        - mak variable that will be keep on updating with max Diameter
+        - maintain (d, h) for every node : d -> Diameter, h-> height
+        - return height of node to parent node
+        - Diameter = height of left node + height of right node + 2
+       { Note: if only one root then height is 0, if root is none then height is -1 }
+
+Level order Travesal:
+    --> Level wise traversing (i.e. root node, then its both child node, then their child nodes, etc.........)
+
+    Approach:
+        - take help of queue (FIFO)
+        - insert root in queue
+        - pop one value from 0-index from queue
+        - insert its child nodes in queue
+        - repeat this steps till leaf nodes
+
+Top View of Tree:
+    --> nodes that can be visible from Top
+    note: it is not necessary that node will be outer most nodes only
+
+    Logic:
+        -> lets assume a value, for root node it is 0
+        -> for every left call decreament one from its parent node and increament one for right call from its parent node
+        -> print the nodes with unique value from left to right
+    
+    Implementation:
+        -> move level order (insert node, then both the child nodes, etc.. pop one by one from 0-index stop when empty)
+        -> maintain queue and dictonary (key:value, key-> root.level (value after increament/decreament), value-> node.data)
+        -> check if root.level if in dict if not then add this as key with value  node.data
+        
+
+Balanced Binary Tree:
+    -- left and right subtrees of every node differ in height of no more than one.
+    Logic:
+        - maintain (height, isBalanced) for every node
+        isBalanced is boolean value, it is true if left and right is Balanced and diff of height should be less than 1
+
+
+Note:
+    - InOrder gives result in Increasing order
+    - 

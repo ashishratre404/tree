@@ -1,0 +1,46 @@
+# Binary Tree
+    1. Sum root to leaf node 
+    2. Merge two Binary Trees
+        - create new Binary Tree
+        - Merge Inplace
+    3. view of Tree
+        - top view
+        - bottom view
+        - left view
+        - right view
+    4. Binary Tree Zigzag level order traversal (level order in spiral) :leetcode 103
+    5. Diagonal traversal (X)
+    6. construct Binary tree from preoeder and inorder : leetcode 105
+    7. construct Binary tree fro level order and inorder
+    8. boundry traversal
+    9. Binary tree to doubly linked list DLL (inorder of tree to DLL) (X)
+    10. Check if two tree are mirror image of each other
+    11. LCA of Binary Tree (very important)
+    12. Binary Lifting( Kth Ancestor of tree node) (X)
+    13. Binary Tree into sum tree
+    14. Check if sum tree or not
+    15. Check if all leaf nodes are on same level
+    16. maximum sum of nodes such that no two nodes are adjacent
+    17. print all k-sum paths (X)
+    18. distance between two nodes
+    19. Subtree of another tree (leetcode: 572)
+    20. Duplicate Subtree of bt (X)
+    21. Isomorphism
+    22. bt from inorder and postorder
+
+
+# Binary Search Tree
+    1. Kth Smallest of BST
+    2. valid BST
+    3. Inorder succressor and predecessor in BST (X)
+    4. LCA of BST
+    5. Normal BST into Balanced BST
+    6. Merge two BST (v. v. imp) (X)
+    7. construct BST from BT
+    8. bst form preoeder
+    9. count no. of nodes in a given range
+    10. count pair from two bst whose sum is equal to given value 'X
+    11. Populate inorder succressor of all nodes  (no clue)
+    12. Find the median of BST (X)
+    13. Check whether bst contains dead end
+    14. Largest BST in bt (v.v.v. important)  (X)
